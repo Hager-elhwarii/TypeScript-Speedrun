@@ -12,31 +12,6 @@
 // Optional type => ?: we can mark those properties as optional by adding a question mark (?) to the end of their names.
 // Union types => A union type is a type formed from two or more other types like (string | number),
 
-export interface User {
-  name: string;
-  age: number;
-}
-
-const user: User = {
-  name: "alii",
-  age: 5,
-};
-
-function getAdmin(): User {
-  return {
-    age: 5,
-    name: "gigii",
-  };
-}
-
-function greet(a: string, b: number, c: boolean, d: Array<string>) {
-  return `${a} Omar this is number ${b} ${c} ${d}!!`;
-}
-
-console.log(greet("hello", 2, true, ["right"]));
-console.log(getAdmin());
-console.log(user.name);
-console.log(user.age);
 
 
 // Explicit type annotations
@@ -71,6 +46,32 @@ let studentTwo: MyObj = {
   age: 30,
   isActive: true,
 };
+
+export interface User {
+  name: string;
+  age: number;
+}
+
+const user: User = {
+  name: "alii",
+  age: 5,
+};
+
+function getAdmin(): User {
+  return {
+    age: 5,
+    name: "gigii",
+  };
+}
+
+function greet(a: string, b: number, c: boolean, d: Array<string>) {
+  return `${a} Omar this is number ${b} ${c} ${d}!!`;
+}
+
+console.log(greet("hello", 2, true, ["right"]));
+console.log(getAdmin());
+console.log(user.name);
+console.log(user.age);
 
 // Array Type
 let arr : number[] = [1,2,3,4]
