@@ -10,7 +10,7 @@ The Ultimate `TypeScript` fundamentals for Beginners.
 git clone https://github.com/Hager-elhwarii/TypeScript-Speedrun.git
 ```
 
-## 🦄   Author
+## 🦄 Author
 > If you want to get in-touch with me you can reach me at:
 
 -  [Email](https://mail.google.com/mail/?view=cm&to=hager.a.elhawary@gmail.com)
