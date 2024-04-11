@@ -10,6 +10,17 @@
 git clone https://github.com/Hager-elhwarii/TypeScript-Speedrun.git
 ```
 
+## 🌷 How to take the course
+
+```
+# Installs all dependencies
+npm install
+
+# Asks you which exercise you'd like to run, and runs it
+npm run exercise
+
+```
+
 ## 🦄 Author
 > If you want to get in-touch with me you can reach me at:
 
